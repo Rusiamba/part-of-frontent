@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list>.sign-up__button {
+    margin-top: 15px;
+}
+
+.sign-up__button {
+    width: 130px;
+    color: white;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 16px;
+}

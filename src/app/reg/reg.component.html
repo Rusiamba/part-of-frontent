@@ -1,0 +1,50 @@
+<div class="popup">
+    <div class="popup__container">
+      <div class="sign-up">
+        <header class="sign-up__header">
+          <h3 class="sign-up__title">Sign Up</h3> 
+        </header>
+        <div class="sign-up__content">
+          <form class="sign-up__form" (submit)="userRegisterClick()">
+            <div class="sign-up__row_one">
+              <div class="sign-up__column">
+                <input id="firstname" class="sign-up__field_firstname" placeholder="First name" [(ngModel)]="name" name="firstname" required> 
+              </div>
+              <div class="sign-up__column">
+                <input id="lastname" class="sign-up__field_lastname" type="name" placeholder="Last name" [(ngModel)]="secname" name="lastname" required> 
+              </div>            
+            </div>
+            <div class="sign-up__row_two">
+              <div class="sign-up__column">
+                <div class="gender_column">
+                  <label>Gender</label>
+                  <input type="radio" name="people">Male  
+                  <input type="radio" name="people">Female
+                </div>
+                <div class="age_column">
+                  <label>Age</label>
+                  <input type="number" name="num" min="10" max="100" value="10">
+                </div>
+              </div>              
+            </div>
+            <div class="sign-up__row">
+              <div class="sign-up__column">
+                <input id="email" class="sign-up__field_email" [(ngModel)]="email" name="email" type="email" placeholder="Email" required> 
+              </div>
+            </div>
+            <div class="sign-up__row_three">
+              <div class="sign-up__column">
+                <input id="password" [(ngModel)]="password" name="password" class="sign-up__field_password" type="password" placeholder="Password" id="txtNewPassword" required>
+              </div>
+              <div class="sign-up__column">
+                <input id="confirm password" [(ngModel)]="confpassword" name="confpassword" class="sign-up__field_confpassword" type="password" placeholder="Confirm Password" id="txtConfirmPassword" required>
+              </div>
+            </div>
+            <div class="sign-up__row">
+              <button class="sign-up__button"><span class="sign-up__button-label">Sign Up</span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

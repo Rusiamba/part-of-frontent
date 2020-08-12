@@ -1,0 +1,36 @@
+@media (max-width: 350px) {
+    .sign-up__field_firstname, .sign-up__field_lastname, .sign-up__field_password, .sign-up__field_confpassword {
+        width: 300px;
+    }
+
+    .sign-up__field_email {
+        width: 300px;
+    }
+
+    .sign-up__row_one {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sign-up__row_two>.sign-up__column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gender_column>input {
+        margin-left: 60px;
+    }
+
+    .age_column {
+        margin-left: 0;
+    }
+
+    .age_column>input {
+        margin-left: 85px;
+    }
+
+    .sign-up__row_three {
+        display: flex;
+        flex-direction: column;
+    }
+}
