@@ -14,7 +14,7 @@ import { AuthService } from './auth.service';
 import { HttpModule } from '@angular/http';
 
 const appRoute: Routes = [
-  {path: '', component: HomeComponent},
+  {path: '/', component: HomeComponent},
   {path: 'reg', component: RegComponent},
   {path: 'auth', component: AuthComponent},
 ];
